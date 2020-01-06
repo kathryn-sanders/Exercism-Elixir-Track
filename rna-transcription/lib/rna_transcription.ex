@@ -21,7 +21,6 @@ defmodule RnaTranscription do
       ?C -> ?G
       ?T -> ?A
       ?A -> ?U
-      _ -> ?X
     end
   end
 
